@@ -9,6 +9,14 @@ change database connection in admin>config
 
 change database connection in patient>config
 -config.php
+
+Modify your php.ini located at xampp/php/php.ini, and change the following line:
+
+;extension=php_gd2.dll
+
+to:
+
+extension=php_gd2.dll
 -----------------------------------------------------
 admin>superglobal.php
 change mail_link according to the name of your project name and folder name
